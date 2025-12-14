@@ -1,0 +1,9 @@
+[package]
+name = "reviews_rating"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+reviews_rating = "0x38deb9fd20b2850f0b725d3d8fc0350515e600dce83332029123a9b5cf5510eb"
